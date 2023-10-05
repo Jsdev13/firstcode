@@ -1,0 +1,55 @@
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:sans-serif;
+    background-color:ivory
+}
+
+    h1 {
+        font-size: 150%;
+        color:black;
+        text-decoration : underline;
+        font-variant : small-caps;
+    }
+
+    h2 {
+        font-size: 150%;
+        text-decoration : underline;
+        font-variant : small-caps;
+    }
+
+    h3 {
+        font-size: 150%;
+        text-decoration : underline;
+        font-variant : small-caps;
+    }
+
+    h4 {
+        font-size: 150%;
+        text-decoration : underline;
+        font-weight: normal !important;
+        font-variant : small-caps;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex: auto;
+    }
+
+    article {
+        flex: 2;
+        overflow-y: auto;
+    }
+
+    aside {
+        flex: 1;
+        overflow-y: auto;
+        font-style : italic;
+        background: cornsilk;
+    
+    }
